@@ -45,7 +45,7 @@
 #connectbtn {
   position: absolute;
   display: flex;
-  top: 40vh;
+  top: 50vh;
   margin: auto;
   font-family: 'Press Start 2P', cursive;
   text-shadow: 4px 4px black;
@@ -70,6 +70,8 @@
   font-size: 4em;
 
 }
+
+
 
 .soldout {
   position: absolute;
@@ -121,6 +123,10 @@
   margin-right: auto;
 }
 
+.text-1{
+  
+}
+
 @media (width: 1366px) {
   .twitter {
     right: 10vw;
@@ -138,5 +144,10 @@
 
   .os {
     left: 10vw;
+  }
+}
+@media (min-width: 1500px) {
+  #connectbtn{
+    top: 45vh;
   }
 }

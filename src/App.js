@@ -119,6 +119,7 @@ function App() {
   const connected = () => {
     document.getElementById("connectbtn").style.display = "none";
     document.getElementById("connectbtn2").style.display = "none";
+    document.getElementById("text-1").style.display = "none";
    /*  document.getElementById("text1").style.display = "none";
     document.getElementById("text2").style.display = "none";
     document.getElementById("text3").style.display = "none"; */
@@ -152,6 +153,10 @@ function App() {
         <a href="https://twitter.com/pillagersnft" target="_blank">
           <img src="/config/images/twitterp.png" style={{ width: '55px', position: 'absolute', top: '17px', left: '30px', zIndex: '10' }} className="tw"></img>
         </a>
+
+        <div id="text-1" style={{position: 'absolute', width: '45%', lineHeight: '25px', top: '33vh'}}>
+          <p style={{fontFamily: "'Press Start 2P', cursive", color: '#687F8E', fontSize: '1.2em', textShadow: '2px 2px black' }}>For what is right, for what is wrong, we will pillage on. 13 factions over 100 traits. Choose wisely young swordsman.</p>
+        </div>
         <div id="connectbtn" style={{}}
           onClick={(e) => {
             e.preventDefault();
@@ -162,6 +167,7 @@ function App() {
         >
           CONNECT
         </div>
+
         {/*<img src="/config/images/click.gif" style={{ position: 'absolute', width: '3%', top: '69vh', right: '35vw' }}></img>*/}
 
         {/* <div id="text1" onClick={changeText1} style={{ display: 'flex', flexDirection: 'row', width: '45%', position: 'absolute', height: '50%', top: '30vh', cursor: 'pointer' }}>
