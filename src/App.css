@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+/*Home*/
+
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-items: center;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+@media (max-width: 960px) {
+  .home {
+    display: none;
+  }
+}
+
+.mint {
+  position: absolute;
+  display: block;
+  color: white;
+  top: 33vh;
+  left: -0.5vw;
+  right: 0;
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mint2 {
+  position: absolute;
+  display: block;
+  color: white;
+  top: 27vh;
+  left: 0;
+  right: 0;
+  width: 195px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+#connectbtn {
+  position: absolute;
+  display: flex;
+  top: 40vh;
+  margin: auto;
+  font-family: 'Press Start 2P', cursive;
+  text-shadow: 4px 4px black;
+  color: #687F8E;
+  cursor: pointer;
+  font-size: 2.5em;
+}
+
+#connectbtn2 {
+  position: absolute;
+  display: flex;
+  top: 40vh;
+  left: 0;
+  right: 0;
+  width: 235px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Press Start 2P', cursive;
+  text-shadow: 5px 5px black;
+  color: white;
+  cursor: pointer;
+  font-size: 4em;
+
+}
+
+.soldout {
+  position: absolute;
+  transform: rotate(-deg);
+  font-family: 'Gemini', cursive;
+  color: white;
+  opacity: 1;
+  cursor: pointer;
+  font-size: 1.9em;
+  left: 1vw;
+  top: 10vh;
+}
+
+.mintbtn {
+  font-family: 'Press Start 2P', cursive;
+  text-shadow: 5px 5px black;
+  color: white;
+  cursor: pointer;
+  font-size: 4em;
+}
+
+.twitter {
+  position: absolute;
+  font-family: 'Gemini', cursive;
+  color: white;
+  font-size: 2em;
+  display: block;
+  color: white;
+  top: 3vh;
+  left: 0;
+  right: 8vw;
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.os {
+  position: absolute;
+  font-family: 'Gemini', cursive;
+  color: white;
+  font-size: 2.1em;
+  display: block;
+  color: white;
+  top: 3vh;
+  left: 8vw;
+  right: 0;
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (width: 1366px) {
+  .twitter {
+    right: 10vw;
+  }
+
+  .os {
+    left: 10vw;
+  }
+}
+
+@media (width: 1536px) {
+  .twitter {
+    right: 10vw;
+  }
+
+  .os {
+    left: 10vw;
+  }
+}
