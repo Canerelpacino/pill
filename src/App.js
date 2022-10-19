@@ -41,7 +41,7 @@ function App() {
     let cost = CONFIG.WEI_COST;
 
     if (mintAmount > 1) {
-      cost = 3000000000000000;
+      cost = 10000000000000000;
     }
 
     let gasLimit = CONFIG.GAS_LIMIT;
